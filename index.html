@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img
+          data-image="black"
+          src="https://designmodo.com/demo/product-page/images/black.png"
+          alt=""
+        />
+        <img
+          data-image="blue"
+          src="https://designmodo.com/demo/product-page/images/blue.png"
+          alt=""
+        />
+        <img
+          data-image="red"
+          class="active"
+          src="https://designmodo.com/demo/product-page/images/red.png"
+          alt=""
+        />
+      </div>
+
+      <!-- Right Column -->
+      <div class="right-column">
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Marmeto</span>
+          <h1>Embrace Sideboard</h1>
+          <h1 class="price">148$</h1>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Color</span>
+
+            <div class="color-choose">
+              <div>
+                <input
+                  data-image="red"
+                  type="radio"
+                  id="red"
+                  name="color"
+                  value="red"
+                  checked
+                />
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input
+                  data-image="blue"
+                  type="radio"
+                  id="blue"
+                  name="color"
+                  value="blue"
+                />
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input
+                  data-image="black"
+                  type="radio"
+                  id="black"
+                  name="color"
+                  value="black"
+                />
+                <label for="black"><span></span></label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cable Configuration -->
+          <div class="cable-config">
+            <span>Cable configuration</span>
+
+            <div class="cable-choose">
+              <button>Straight</button>
+              <button>Coiled</button>
+              <button>Long-coiled</button>
+            </div>
+
+            <a href="#">How to configurate your headphones</a>
+          </div>
+        </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+        <hr class="line" />
+        <p>
+          The Embrace Sideboard is a stylish wear. With a top cloth designed to
+          provide superior protection and look great, this storage solution is
+          both functional and attractive. It fits seamlessly into any home
+          decor, with clean lines and a timeless look. Crafted from premium
+          materials for a combination of style, durability, and reliability.
+        </p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
