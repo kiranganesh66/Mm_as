@@ -14,7 +14,7 @@ Description of the product.
 
 **HTML** : Markup language for structuring the web page.
 **CSS** : Styling language used for visual presentation.
-**JavaScript** : Programming language for adding interactivity and dynamic behavior to the page.4
+**JavaScript** : Programming language for adding interactivity and dynamic behavior to the page.
 
 # Usage
 
